@@ -1,0 +1,12 @@
+{
+  "name": "url-shortener-8e282f",
+  "version": "1.0.0",
+  "description": "A url-shortener utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["url-shortener", "utility"],
+  "license": "MIT"
+}

